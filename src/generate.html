@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlotTwist - Generation</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <a class="logo" href="/src/index.html">PlotTwist.com</a>
+      <nav>
+        <a href="#">History</a>
+        <a class="nav-button" href="/src/generate.html">Generate Prompt</a>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="prompt-page">
+      <section class="prompt-info">
+        <p id="promptOutput"></p>
+        <h1 class="prompt-title" id="title">Prompt Title:</h1>
+        <ul class="prompt-list">
+          <li>Seed Word: <span class="label" id="seedOutput"></span></li>
+          <li>Setting: <span class="label" id="setting"></span></li>
+          <li>Point of View: <span class="label" id="point_of_view"></span></li>
+          <li>Genre: <span class="label" id="genre"></span></li>
+          <li>Tone: <span class="label" id="tone"></span></li>
+          <li>First Line: <span class="label" id="first_line"></span></li>
+          <li>Summary: <span class="label" id="summary"></span></li>
+          <li>Keywords: <span class="label" id="keywords"></span></li>
+        </ul>
+
+        <div class="button-group">
+          <button class="button" id="generateBtn">
+            Re-Generate Prompt
+          </button>
+          <button class="button button-secondary">Save Prompt</button>
+          <button class="icon-btn" title="Copy Prompt"></button>
+        </div>
+      </section>
+
+      <!-- Blossom Art -->
+      <aside class="blossom-art">
+        <!-- <img src="/assets/blossom.png" alt="Blossom Art" /> -->
+      </aside>
+    </main>
+
+    <script src="/scripts/script.js" type="module"></script>
+  </body>
+</html>
