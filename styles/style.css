@@ -31,6 +31,8 @@ header {
 
 .logo {
   font-weight: medium;
+  text-decoration: none;
+  color: #0b0c2a;
 }
 
 nav {
